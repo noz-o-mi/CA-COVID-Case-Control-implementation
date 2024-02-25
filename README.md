@@ -86,10 +86,12 @@ Authors: Nozomi Fukui, MPH <sup>1,2,¶,^</sup>, Sophia S. Li, BS<sup>1,3,¶,^</s
          <code>amod2_glm</code><br>
          <code>amod2_x_glmer</code>
          <br><code>amod2_x_gee</code><br>
-         <code>amod2_x_glm</code><br><br></p>
+         <code>amod2_x_glm</code><br><br>
+         <code>model_info_lookup.xlsx</code><br><br>
+       </p>
     </td>
     <td valign="top">
-       <br>Model outputs generated and used in analysis. "amod" indicates an adjusted model. "x" indicates an interaction was accounted for. "glmer" refers to generalized linear mixed-effects models. "glm" refers to generalized linear fixed-effects models. "gee" indicates generalized estimating equations.
+       <br>Model outputs generated and used in analysis. "amod" indicates an adjusted model. "x" indicates an interaction was accounted for. "glmer" refers to generalized linear mixed-effects models. "glm" refers to generalized linear fixed-effects models. "gee" indicates generalized estimating equations. <br><br>The model info lookup workbook contains information on each model.
     </td>
     <td align="center">-</td>
   </tr>
