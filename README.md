@@ -149,7 +149,8 @@ Authors: Nozomi Fukui, MPH <sup>1,2,¶,^</sup>, Sophia S. Li, BS<sup>1,3,¶,^</s
     <td valign="top">
        <br>Tables, figures, and items that provide supporting information to the paper. <br>
       <br>For S1 Fig, 2020-21 <a href="https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.2021.html#list-tab-790442341">US Census Bureau TIGER/Line Shapefiles</a> were used to produce the map.<br>
-      <br>For S5 Fig, COVID-19 Probable Cases data was obtained from the CAOpenData file included in the data folder. For S7 Fig and S8 Table, the USCB DP03income and DP05race files in the data folder were used.
+      <br>For S5 Fig, COVID-19 Probable Cases data was obtained from the CAOpenData file included in the data folder. <br>
+      <br>For S7 Fig and S8 Table, the USCB DP03income and DP05race files in the data folder were used.
     </td>
     <td valign="center">
       <br>
