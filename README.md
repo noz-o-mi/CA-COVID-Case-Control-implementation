@@ -8,7 +8,7 @@ Authors: Nozomi Fukui, MPH <sup>1,2,¶,^</sup>, Sophia S. Li, BS<sup>1,3,¶,^</s
 <sup>1</sup> California Department of Public Health, Richmond, CA, USA   <br>
 <sup>2</sup> Division of Epidemiology and Biostatistics, School of Public Health, University of California, Berkeley, California, USA <br>
 <sup>3</sup> College of Agricultural and Environmental Sciences, University of California, Davis, CA, USA <br>
-<sup>4</sup> University of Washington, Hans Rosling Center, Global Health, Seattle, WA  <br>
+<sup>4</sup> University of Washington, Hans Rosling Center, Global Health, Seattle, WA, USA  <br>
 <sup>5</sup> The Centre for Infectious Disease Research in Zambia (CIDRZ), Lusaka, Zambia <br>
 <sup>6</sup> Division of Infectious Diseases & Vaccinology, School of Public Health, University of California, Berkeley, California, USA <br>
 <sup>7</sup> Center for Computational Biology, College of Engineering, University of California, Berkeley, California, USA <br>
