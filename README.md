@@ -7,7 +7,7 @@ C4 Study Implementation paper | Mixed methods approach to examining the implemen
 * [Data](#data-folder) 
 * [Tables and Figures](#tables-figs-folder)
 * [Supporting Information](#supplement-folder)
-* [Models](#maps-folder) 
+* [Models](#models-folder) 
 
 
 * 
