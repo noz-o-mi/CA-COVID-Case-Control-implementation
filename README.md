@@ -22,11 +22,113 @@ Authors: Nozomi Fukui, MPH <sup>1,2,¶,^</sup>, Sophia S. Li, BS<sup>1,3,¶,^</s
 
 # Table of contents 
 
-| **Folder** <br> `Files` | **Description**<br><br> | **Output**<br><br> |
-| :----: | :- | :- |
-| :floppy_disk:data <br> `raw.rdata` <br> `clean.rdata`| Raw and cleaned deidentified data used in the analysis and visualization of this paper. | <p align="center">-</p>  |
-| :broom:processing <br> `cleaning.R` | Code used to clean the raw data and prepare the analytic dataset. | Cleaned data file found in the data folder. |
-| :mag_right:analysis <br> `filename` | | Model files located in the models folder. |
-| :computer:models <br> `amod1_glmer`<br> `amod1_gee`<br>`amod1_geem`<br>`amod1_glm`<br> `amod1_x_glmer`<br>`amod1_x_gee`<br>`amod1_x_geem`<br>`amod1_x_glm` <br><br> `amod2_glmer`<br> `amod2_gee`<br>`amod2_geem`<br>`amod2_glm` <br> `amod2_x_glmer`<br>`amod2_x_gee`<br>`amod2_x_geem`<br>`amod2_x_glm` <br><br> | Model outputs generated and used in analysis. "amod" indicates an adjusted model. "x" indicates an interaction was accounted for. "glmer" refers to generalized linear mixed-effects models. "glm" refers to generalized linear fixed-effects models. "gee" and "geem" indicate generalized estimating equations.  | <p align="center">-</p> |
-| :bar_chart:[tables-figs](https://github.com/noz-o-mi/CA-COVID-Case-Control-implementation/tree/main/tables-figs) <br><br>  `Table1.xlsx` <br> `Table2.xlsx` <br><br>  `Fig1.pdf` <br> `Fig2.pdf` <br> `Fig3.pdf` | Main tables and figures in the paper.  | **Table 1.** Characteristics of SARS-CoV-2 test-seekers in California who were called, answered the phone, consented to participate, and completed the telephone survey. <br>**Table 2.** Interviewer experience survey quotes. <br><br>  **Fig 1.** Process diagram for recruitment, onboarding, and training interviewers. <br>**Fig 2.** Study timeline mapped against weekly enrollment trends by case-control status. <br>**Fig 3.** Predictors of participants answering the telephone and consenting to participate in the California COVID-19 Case Control study. | 
-| :card_file_box:[supplement](https://github.com/noz-o-mi/CA-COVID-Case-Control-implementation/tree/main/supplement) <br><br> `S01-Table.xlsx` <br> `S02-Table.xlsx` <br>  `S03-Table.xlsx` <br>  `S04-Table.xlsx` <br>  `S05-Table.xlsx` <br>  `S06-Table.xlsx` <br>  `S07-Table.xlsx` <br>  `S08-Table.xlsx` <br><br>  `S01-Fig.pdf` <br> `S02-Fig.pdf` <br> `S03-Fig.pdf` <br> `S04-Fig.pdf` <br> `S05-Fig.pdf` <br> `S06-Fig.pdf` <br> `S07-Fig.pdf` <br> `S08-Fig.pdf` <br> `S09-Fig.pdf` <br> `S10-Fig.pdf` <br> `S11-Fig.pdf` <br><br> `S01-Item.docx` <br> `S02-Item.docx` <br>| Tables, figures, and items that provide supporting information to the paper. |  **S1 Table.** Characteristics of interviewers. <br> **S2 Table.** Model comparison using Bayesian Information Criterion. <br> **S3 Table.** Predictors of answering the telephone and consenting to participate in a case-control study using mixed effects logistic regression. <br> **S4 Table.** Predictors of answering the telephone, consenting to participate in a case-control study, and ultimately enrolling in the study, interacted with SARS-CoV-2 test result, using mixed effects logistic regression. <br> **S5 Table.** Reasons for refusal to participate in the case-control study. <br> **S6.** Predictors of citing time as a reason for refusing participation using mixed effects logistic regression. <br> **S7 Table.** Characteristics of California population and composition of SARS-CoV-2 test seekers in California throughout the study period. <br> **S8 Table.** 2020 U.S. Census Bureau American Community Survey Demographics of the State of California. <br> <br> **S1 Fig.** Study regions. <br> **S2 Fig.** Sampling process. <br> **S3 Fig.** Enrollment of participants in the California COVID-19 Case-Control Study. <br> **S4 Fig.** Calls to successfully enroll a case (SARS-CoV-2 positive) or control (SARS-CoV-2 negative). <br> **S5 Fig.** Calls to enroll one case or control over the study period, overlayed with total cases reported across California each week. <br> **S6 Fig.** Predominant reasons cited for not consenting to participate in the study, over the course of the study. <br> **S7 Fig.** Comparison of household income and race/ethnicity demographics between the study population and California population. <br> **S8 Fig.** Agreement with social distancing, face mask use, general anxiety about COVID-19, and attendance at indoor public settings month of study among participants who completed the survey. <br> **S9 Fig.** Proportion of participants reporting attendance at indoor settings over the study period. <br> **S10 Fig.** Area graph of population who was excluded due to previous SARS-CoV-2 positive over time. <br> **S11 Fig.** Interviewer encounters with grief, anger, and demand for social service resources. <br> <br> **S1 Item.** Survey questions and guide. <br> **S2 Item.** Interviewer experience survey. | 
+<table>
+<tr>
+  <td valign="top" width="15%">
+    <h2 align="center">Folder</h3>
+    <p align="center"><code>File</code></p>
+  </td>
+  <td valign="top" width="25%">
+    <h2 align="center">Description</h3>
+  </td>
+  <td valign="top" width="60%">
+    <h2 align="center">Output</h3>
+  </td>
+</tr> 
+  <tr>
+    <td valign="top">
+      <h4 align="center"> :floppy_disk: data </h4>
+      <p align="center"><code>raw.rdata</code> <br> <code>clean.rdata</code></p>
+    </td>
+    <td>
+      Raw and cleaned deidentified data used in the analysis and visualization of this paper.
+    </td>
+    <td valign="top">
+      <p align="center">-</p>
+    </td>
+  </tr>
+  <tr>
+     <td valign="center">
+       <h4 align="center"> :broom: processing </h4>
+       <p align="center"><code>cleaning.R</code></p>
+    </td>
+    <td>
+      Code used to clean the raw data and prepare the analytic dataset.
+    </td>
+    <td valign="center">
+      Cleaned data file found in the data folder.
+    </td>
+  </tr>
+  <tr>
+     <td valign="center">
+       <h4 align="center"> :mag_right: analysis </h4>
+       <p align="center"><code>filename</code></p>
+    </td>
+    <td>
+       ...
+    </td>
+    <td valign="center">
+      Model files located in the models folder.
+    </td>
+  </tr>
+  <tr>
+     <td valign="center">
+      <h4 align="center"> :computer: models</h4>
+       <p align="center"><code>amod1_glmer</code><br><code>amod1_gee</code><br><code>amod1_geem</code><br><code>amod1_glm</code><br><code>amod1_x_glmer</code><br><code>amod1_x_gee</code><br><code>amod1_x_geem</code><br><code>amod1_x_glm</code><br><br><code>amod2_glmer</code><br><code>amod2_gee</code><br><code>amod2_geem</code><br><code>amod2_glm</code><br><code>amod2_x_glmer</code><br><code>amod2_x_gee</code><br><code>amod2_x_geem</code><br><code>amod2_x_glm</code><br><br></p>
+    </td>
+    <td valign="top">
+       <br>Model outputs generated and used in analysis. "amod" indicates an adjusted model. "x" indicates an interaction was accounted for. "glmer" refers to generalized linear mixed-effects models. "glm" refers to generalized linear fixed-effects models. "gee" and "geem" indicate generalized estimating equations.
+    </td>
+    <td align="center">-</td>
+  </tr>
+  <tr>
+     <td valign="top">
+      <h4 align="center" valign="top"> :bar_chart:tables-figs</h4>
+       <p align="center"><code>Table1.xlsx</code><br><code>Table2.xlsx</code><br><br><code>Fig1.pdf</code><br><code>Fig2.pdf</code><br><code>Fig3.pdf</code></p>
+    </td>
+    <td valign="top">
+       <br>Main tables and figures in the paper. 
+    </td>
+    <td valign="center">
+      <br>
+      <b>Table 1.</b> Characteristics of SARS-CoV-2 test-seekers in California who were called, answered the phone, consented to participate, and completed the telephone survey. <br><b>Table 2.</b> Interviewer experience survey quotes. <br><br>
+      <b>Fig 1.</b> Process diagram for recruitment, onboarding, and training interviewers. <br>
+      <b>Fig 2.</b> Study timeline mapped against weekly enrollment trends by case-control status. <br>
+      <b>Fig 3.</b> Predictors of participants answering the telephone and consenting to participate in the California COVID-19 Case Control study. 
+    </td>
+  </tr>
+  <tr>
+     <td valign="top">
+      <h4 align="center" valign="top"> :card_file_box:supplement</h4>
+       <p align="center"><code>S01-Table.xlsx</code><br><code>S02-Table.xlsx</code><br><code>S03-Table.xlsx</code><br><code>S04-Table.xlsx</code><br><code>S05-Table.xlsx</code><br><code>S06-Table.xlsx</code><br><code>S07-Table.xlsx</code><br><code>S08-Table.xlsx</code><br><br><code>S01-Fig.pdf</code><br><code>S02-Fig.pdf</code><br><code>S03-Fig.pdf</code><br><code>S04-Fig.pdf</code><br><code>S05-Fig.pdf</code><br><code>S06-Fig.pdf</code><br><code>S07-Fig.pdf</code><br><code>S08-Fig.pdf</code><br><code>S09-Fig.pdf</code><br><code>S10-Fig.pdf</code><br><code>S11-Fig.pdf</code><br><br><code>S01-Item.docx</code><br><code>S02-Item.docx</code><br>
+    </td>
+    <td valign="top">
+       <br>Tables, figures, and items that provide supporting information to the paper.
+    </td>
+    <td valign="center">
+      <br>
+      <b>S1 Table.</b> Characteristics of interviewers. <br> 
+      <b>S2 Table.</b> Model comparison using Bayesian Information Criterion. <br> 
+      <b>S3 Table.</b> Predictors of answering the telephone and consenting to participate in a case-control study using mixed effects logistic regression. <br> 
+      <b>S4 Table.</b> Predictors of answering the telephone, consenting to participate in a case-control study, and ultimately enrolling in the study, interacted with SARS-CoV-2 test result, using mixed effects logistic regression. <br> 
+      <b>S5 Table.</b> Reasons for refusal to participate in the case-control study. <br> 
+      <b>S6.</b> Predictors of citing time as a reason for refusing participation using mixed effects logistic regression. <br> 
+      <b>S7 Table.</b> Characteristics of California population and composition of SARS-CoV-2 test seekers in California throughout the study period. <br> 
+      <b>S8 Table.</b> 2020 U.S. Census Bureau American Community Survey Demographics of the State of California. <br> <br> 
+      <b>S1 Fig.</b> Study regions. <br> 
+      <b>S2 Fig.</b> Sampling process. <br> 
+      <b>S3 Fig.</b> Enrollment of participants in the California COVID-19 Case-Control Study. <br> 
+      <b>S4 Fig.</b> Calls to successfully enroll a case (SARS-CoV-2 positive) or control (SARS-CoV-2 negative). <br> 
+      <b>S5 Fig.</b> Calls to enroll one case or control over the study period, overlayed with total cases reported across California each week. <br> 
+      <b>S6 Fig.</b> Predominant reasons cited for not consenting to participate in the study, over the course of the study. <br> 
+      <b>S7 Fig.</b> Comparison of household income and race/ethnicity demographics between the study population and California population. <br> 
+      <b>S8 Fig.</b> Agreement with social distancing, face mask use, general anxiety about COVID-19, and attendance at indoor public settings month of study among participants who completed the survey. <br> 
+      <b>S9 Fig.</b> Proportion of participants reporting attendance at indoor settings over the study period. <br> 
+      <b>S10 Fig.</b> Area graph of population who was excluded due to previous SARS-CoV-2 positive over time. <br> 
+      <b>S11 Fig.</b> Interviewer encounters with grief, anger, and demand for social service resources. <br> <br> 
+      <b>S1 Item.</b> Survey questions and guide. <br> 
+      <b>S2 Item.</b> Interviewer experience survey. 
+    </td>
+  </tr>
+</table>
+
