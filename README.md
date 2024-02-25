@@ -143,7 +143,7 @@ Authors: Nozomi Fukui, MPH <sup>1,2,¶,^</sup>, Sophia S. Li, BS<sup>1,3,¶,^</s
     </td>
     <td valign="top">
        <br>Tables, figures, and items that provide supporting information to the paper. <br>
-      For S1 Fig, 2020-21 <a href="https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.2021.html#list-tab-790442341">US Census Bureau TIGER/Line Shapefiles</a> were used to produce the map.
+      <br>For S1 Fig, 2020-21 <a href="https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.2021.html#list-tab-790442341">US Census Bureau TIGER/Line Shapefiles</a> were used to produce the map.
     </td>
     <td valign="center">
       <br>
