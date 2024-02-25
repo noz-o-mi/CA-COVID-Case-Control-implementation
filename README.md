@@ -5,10 +5,10 @@ DOI: *pending*
 
 Authors: Nozomi Fukui, MPH <sup>1,2,¶,^</sup>, Sophia S. Li, BS<sup>1,3,¶,^</sup>, Jennifer DeGuzman, MPH<sup>1,^</sup>, Jennifer F. Myers, MPH<sup>1</sup>, John Openshaw, MD<sup>1</sup>, Anjali Sharma, ScD<sup>4,5</sup>, James Watt, MD, MPH<sup>1</sup>, Joseph A. Lewnard, PhD<sup>2,6,7</sup>, Seema Jain, MD<sup>1</sup>, Kristin L. Andrejko, PhD<sup>1,3,&</sup>, Jake M. Pry, PhD, MPH,<sup>1,8,&</sup>, on behalf of the California COVID-19 Case-Control Study Team,<sup>1^</sup>
 
-<sup>1</sup> California Department of Public Health, Richmond, CA, USA   <br>
+<sup>1</sup> California Department of Public Health, Richmond, California, USA   <br>
 <sup>2</sup> Division of Epidemiology and Biostatistics, School of Public Health, University of California, Berkeley, California, USA <br>
-<sup>3</sup> College of Agricultural and Environmental Sciences, University of California, Davis, CA, USA <br>
-<sup>4</sup> University of Washington, Hans Rosling Center, Global Health, Seattle, WA, USA  <br>
+<sup>3</sup> College of Agricultural and Environmental Sciences, University of California, Davis, California, USA <br>
+<sup>4</sup> University of Washington, Hans Rosling Center, Global Health, Seattle, Washington, USA  <br>
 <sup>5</sup> The Centre for Infectious Disease Research in Zambia (CIDRZ), Lusaka, Zambia <br>
 <sup>6</sup> Division of Infectious Diseases & Vaccinology, School of Public Health, University of California, Berkeley, California, USA <br>
 <sup>7</sup> Center for Computational Biology, College of Engineering, University of California, Berkeley, California, USA <br>
