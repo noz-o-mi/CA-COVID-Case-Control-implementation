@@ -93,7 +93,7 @@ Authors: Nozomi Fukui, MPH <sup>1,2,¶,^</sup>, Sophia S. Li, BS<sup>1,3,¶,^</s
     <td valign="top">
        <br>Model outputs generated and used in analysis. "amod" indicates an adjusted model. "x" indicates an interaction was accounted for. "glmer" refers to generalized linear mixed-effects models. "glm" refers to generalized linear fixed-effects models. "gee" indicates generalized estimating equations. <br><br>The model info lookup workbook contains information on each model.
     </td>
-    <td align="center">-</td>
+    <td align="left">Fig 3, S2-S4 Tables, S6 Table.</td>
   </tr>
   <tr>
      <td valign="top">
