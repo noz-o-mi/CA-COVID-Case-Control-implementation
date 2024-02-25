@@ -18,7 +18,7 @@ Authors: Nozomi Fukui, MPH <sup>1,2,¶,^</sup>, Sophia S. Li, BS<sup>1,3,¶,^</s
 <sup>¶</sup> These authors contributed equally to the study's work.  <br>
 <sup>&</sup> J.M.P and K.L.A are joint senior authors and contributed equally to this work. <br>
 
-<sup>^</sup>Membership of the California COVID-19 Case-Control Study Team includes: </br>Adrian Cornejo, Amanda Lam, Amanda Moe, Amandeep Kaur, Anna Fang, Ashly Dyke, Camilla Barbaduomo, Christine Wan, Diana Nicole Morales Felipe, Diana Poindexter, Erin Xavier, Hyemin Park, Helia Samani, Jennifer DeGuzman, Jessica Ni, Julia Cheunkarndee, Mahsa Javadi, Maya Spencer, Michelle Spinosa, Miriam Bermejo, Monique Miller, Najla Dabbagh, Natalie Dassian, Nikolina Walas, Nozomi Fukui, Paulina Frost, Savannah Corredor, Shrey Saretha, Sophia S. Li, Timothy Ho, Vivian Tran, Yang Zhou, Yasmine Abdulrahim, Zheng Dong. <br>
+<sup>^</sup>Membership of the California COVID-19 Case-Control Study Interviewer Team includes: </br>Adrian Cornejo, Amanda Lam, Amanda Moe, Amandeep Kaur, Anna Fang, Ashly Dyke, Camilla Barbaduomo, Christine Wan, Diana Nicole Morales Felipe, Diana Poindexter, Erin Xavier, Hyemin Park, Helia Samani, Jennifer DeGuzman, Jessica Ni, Julia Cheunkarndee, Mahsa Javadi, Maya Spencer, Michelle Spinosa, Miriam Bermejo, Monique Miller, Najla Dabbagh, Natalie Dassian, Nikolina Walas, Nozomi Fukui, Paulina Frost, Savannah Corredor, Shrey Saretha, Sophia S. Li, Timothy Ho, Vivian Tran, Yang Zhou, Yasmine Abdulrahim, Zheng Dong. <br>
 
 
 # Table of contents 
@@ -39,17 +39,22 @@ Authors: Nozomi Fukui, MPH <sup>1,2,¶,^</sup>, Sophia S. Li, BS<sup>1,3,¶,^</s
   <tr>
     <td valign="top">
       <h4 align="center"> :floppy_disk: data </h4>
-      <p align="center"><code>raw.rdata</code> <br> <code>clean.rdata</code><br> <code>codebook.xlsx</code></p>
+      <p align="center"><code>raw.rdata</code> <br> <code>clean.rdata</code><br> <code>codebook.xlsx</code><br><br>
+        <code>CAOpenData_covid19cases.csv</code><br> <code>USCB_2020ACS5_DP05race.csv</code><br> <code>USCB_2020ACS5_DP03income.csv</code><br>
+      </p>
     </td>
     <td>
-      Raw and cleaned deidentified data used in the analysis and visualization of this paper, as well as accompanying codebook.
+      Raw and cleaned deidentified data used in the analysis and visualization of this paper, as well as accompanying codebook. <br> <br>
+      <b>California Department of Public Health.</b> (2020-2022). COVID-19 Time-Series Metrics by County and State. <a href="https://data.ca.gov/dataset/covid-19-time-series-metrics-by-county-and-state">California Open Data Portal</a>. 
+      <br><br><b>U.S. Census Bureau.</b> (2020). American Community Survey 5-year Demographic and Housing Estimates: <a href="https://data.census.gov/table/ACSDP5Y2020.DP05?g=040XX00US06%240500000&y=2020&d=ACS+5-Year+Estimates+Data+Profiles">DP05</a>. 
+      <br><br><b>U.S. Census Bureau.</b> (2020). American Community Survey 5-year Selected Economic Characteristics: <a href="https://data.census.gov/table?q=income&g=040XX00US06&y=2020&d=ACS+5-Year+Estimates+Data+Profiles">DP02</a>.
     </td>
-    <td valign="top">
+    <td valign="center">
       <p align="center">-</p>
     </td>
   </tr>
   <tr>
-     <td valign="center">
+     <td valign="top">
        <h4 align="center"> :broom: processing </h4>
        <p align="center"><code>cleaning.R</code></p>
     </td>
@@ -61,19 +66,19 @@ Authors: Nozomi Fukui, MPH <sup>1,2,¶,^</sup>, Sophia S. Li, BS<sup>1,3,¶,^</s
     </td>
   </tr>
   <tr>
-     <td valign="center">
+     <td valign="top">
        <h4 align="center"> :mag_right: analysis </h4>
        <p align="center"><code>filename</code></p>
     </td>
-    <td>
-       ...
+    <td valign = "top" align="left">
+       Code used to conduct quantitative analysis for the paper.
     </td>
     <td valign="center">
       Model files located in the models folder.
     </td>
   </tr>
   <tr>
-     <td valign="center">
+     <td valign="top">
       <h4 align="center"> :computer: models</h4>
        <p align="center"><code>amod1_glmer</code><br>
          <code>amod1_gee</code><br>
@@ -93,7 +98,8 @@ Authors: Nozomi Fukui, MPH <sup>1,2,¶,^</sup>, Sophia S. Li, BS<sup>1,3,¶,^</s
     <td valign="top">
        <br>Model outputs generated and used in analysis. "amod" indicates an adjusted model. "x" indicates an interaction was accounted for. "glmer" refers to generalized linear mixed-effects models. "glm" refers to generalized linear fixed-effects models. "gee" indicates generalized estimating equations. <br><br>The model info lookup workbook contains information on each model.
     </td>
-    <td valign="top" align="left"><br>Fig 3, S2-S4 Tables, S6 Table.</td>
+    <td valign="top" align="left"><br>Fig 3 located in tables-figs folder. <br>
+      S2-S4 Tables and S6 Table located in supplement folder.</td>
   </tr>
   <tr>
      <td valign="top">
@@ -141,7 +147,9 @@ Authors: Nozomi Fukui, MPH <sup>1,2,¶,^</sup>, Sophia S. Li, BS<sup>1,3,¶,^</s
          <code>S02-Item.docx</code><br>
     </td>
     <td valign="top">
-       <br>Tables, figures, and items that provide supporting information to the paper.
+       <br>Tables, figures, and items that provide supporting information to the paper. <br>
+      <br>For S1 Fig, 2020-21 <a href="https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.2021.html#list-tab-790442341">US Census Bureau TIGER/Line Shapefiles</a> were used to produce the map.<br>
+      <br>For S5 Fig, COVID-19 Probable Cases data was obtained from the "CAOpenData_covid19cases" file included in the data folder. For S7 Fig and S8 Table, "USCB_2020ACS5_DP03income" and "USCB_2020ACS5_DP05race" files in the data folder were used.
     </td>
     <td valign="center">
       <br>
