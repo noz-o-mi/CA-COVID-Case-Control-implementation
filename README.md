@@ -150,7 +150,7 @@ Authors: Nozomi Fukui, MPH <sup>1,2,¶,^</sup>, Sophia S. Li, BS<sup>1,3,¶,^</s
       <b>S3 Table.</b> Predictors of answering the telephone and consenting to participate in a case-control study using mixed effects logistic regression. <br> 
       <b>S4 Table.</b> Predictors of answering the telephone, consenting to participate in a case-control study, and ultimately enrolling in the study, interacted with SARS-CoV-2 test result, using mixed effects logistic regression. <br> 
       <b>S5 Table.</b> Reasons for refusal to participate in the case-control study. <br> 
-      <b>S6.</b> Predictors of citing time as a reason for refusing participation using mixed effects logistic regression. <br> 
+      <b>S6 Table.</b> Predictors of citing time as a reason for refusing participation using mixed effects logistic regression. <br> 
       <b>S7 Table.</b> Characteristics of California population and composition of SARS-CoV-2 test seekers in California throughout the study period. <br> 
       <b>S8 Table.</b> 2020 U.S. Census Bureau American Community Survey Demographics of the State of California. <br> <br> 
       <b>S1 Fig.</b> Study regions. <br> 
