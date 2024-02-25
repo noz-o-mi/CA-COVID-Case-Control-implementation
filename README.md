@@ -13,9 +13,9 @@ C4 Study Implementation paper | Mixed methods approach to examining the implemen
 | Folder | Files | Output | Description  |
 | :---:   | :-: | :-: | :-: |
 | data | `filename` | Table 1, Figure 2 |  |
-| tables-figs | `Figure4.R` | Figure 4 | Forest plot of ORs | 
-| supplement | `FigureS1-S3-S6.R` | Supplementary Figures S1, S3, S6 |  **S1:** Study timeline mapped against weekly enrollment trends by case-control status. **S3:** Characteristics of interviewers (total number involved, length of involvement, number enrolled). **S6:**  Calls to successfully enroll a case or control, faceted by variables not included in figure 3 |
-| models | `FigureS2.R` | Supplementary Figure S2 | Study regions (CA map) |
-| analysis | `` | asdsadsa |    |
+| tables-figs | `filename.R` | Fig 1-3, Tables 1-2 | Fig 1. Process diagram for recruitment, onboarding, and training interviewers. Fig 2. Study timeline mapped against weekly enrollment trends by case-control status. Fig 3. Predictors of participants answering the telephone and consenting to participate in the California COVID-19 Case Control study. Table 1. Characteristics of SARS-CoV-2 test-seekers in California who were called, answered the phone, consented to participate, and completed the telephone survey. Table 2. Interviewer experience survey quotes. | 
+| supplement | `filename.R` | S1-S8 Tables, S1-S11 Figures, and S1-S2 Items |  Tables, figures, and items that provide supporting information to the paper. |
+| models | `filename.R` | None | asdsad |
+| analysis | `filename.R` | asdsadsa | asdsad |
 
  
