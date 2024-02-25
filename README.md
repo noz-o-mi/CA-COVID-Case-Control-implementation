@@ -44,12 +44,12 @@ Authors: Nozomi Fukui, MPH <sup>1,2,¶,^</sup>, Sophia S. Li, BS<sup>1,3,¶,^</s
     <td>
       Raw and cleaned deidentified data used in the analysis and visualization of this paper, as well as accompanying codebook.
     </td>
-    <td valign="top">
+    <td valign="center">
       <p align="center">-</p>
     </td>
   </tr>
   <tr>
-     <td valign="center">
+     <td valign="top">
        <h4 align="center"> :broom: processing </h4>
        <p align="center"><code>cleaning.R</code></p>
     </td>
@@ -61,19 +61,19 @@ Authors: Nozomi Fukui, MPH <sup>1,2,¶,^</sup>, Sophia S. Li, BS<sup>1,3,¶,^</s
     </td>
   </tr>
   <tr>
-     <td valign="center">
+     <td valign="top">
        <h4 align="center"> :mag_right: analysis </h4>
        <p align="center"><code>filename</code></p>
     </td>
-    <td>
-       ...
+    <td valign = "top" align="left">
+       Code used to conduct quantitative analysis for the paper.
     </td>
     <td valign="center">
       Model files located in the models folder.
     </td>
   </tr>
   <tr>
-     <td valign="center">
+     <td valign="top">
       <h4 align="center"> :computer: models</h4>
        <p align="center"><code>amod1_glmer</code><br>
          <code>amod1_gee</code><br>
@@ -93,7 +93,8 @@ Authors: Nozomi Fukui, MPH <sup>1,2,¶,^</sup>, Sophia S. Li, BS<sup>1,3,¶,^</s
     <td valign="top">
        <br>Model outputs generated and used in analysis. "amod" indicates an adjusted model. "x" indicates an interaction was accounted for. "glmer" refers to generalized linear mixed-effects models. "glm" refers to generalized linear fixed-effects models. "gee" indicates generalized estimating equations. <br><br>The model info lookup workbook contains information on each model.
     </td>
-    <td valign="top" align="left"><br>Fig 3, S2-S4 Tables, S6 Table.</td>
+    <td valign="top" align="left"><br>Fig 3 located in tables-figs folder. <br>
+      S2-S4 Tables and S6 Table located in supplement folder.</td>
   </tr>
   <tr>
      <td valign="top">
