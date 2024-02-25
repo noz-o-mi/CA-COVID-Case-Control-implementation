@@ -42,7 +42,7 @@ Authors: Nozomi Fukui, MPH <sup>1,2,¶,^</sup>, Sophia S. Li, BS<sup>1,3,¶,^</s
       <p align="center"><code>raw.rdata</code> <br> <code>clean.rdata</code><br> <code>codebook.xlsx</code></p>
     </td>
     <td>
-      Raw and cleaned deidentified data used in the analysis and visualization of this paper and accompanying codebook.
+      Raw and cleaned deidentified data used in the analysis and visualization of this paper, as well as accompanying codebook.
     </td>
     <td valign="top">
       <p align="center">-</p>
