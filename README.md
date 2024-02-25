@@ -84,7 +84,7 @@ Context: Analysis and manuscript preparation took place in 2022 - 2023. <br>
   </tr>
   <tr>
      <td valign="top">
-      <h4 align="center" valign="top"> :bar_chart:tables-figs</h4>
+      <h4 align="center" valign="top"> :bar_chart:<a href="https://github.com/noz-o-mi/CA-COVID-Case-Control-implementation/tree/main/tables-figs">tables-figs</a></h4>
        <p align="center"><code>Table1.xlsx</code><br><code>Table2.xlsx</code><br><br><code>Fig1.pdf</code><br><code>Fig2.pdf</code><br><code>Fig3.pdf</code></p>
     </td>
     <td valign="top">
@@ -100,7 +100,7 @@ Context: Analysis and manuscript preparation took place in 2022 - 2023. <br>
   </tr>
   <tr>
      <td valign="top">
-      <h4 align="center" valign="top"> :card_file_box:supplement</h4>
+      <h4 align="center" valign="top"> :card_file_box:<a href="https://github.com/noz-o-mi/CA-COVID-Case-Control-implementation/tree/main/supplement">supplement</a></h4>
        <p align="center"><code>S01-Table.xlsx</code><br><code>S02-Table.xlsx</code><br><code>S03-Table.xlsx</code><br><code>S04-Table.xlsx</code><br><code>S05-Table.xlsx</code><br><code>S06-Table.xlsx</code><br><code>S07-Table.xlsx</code><br><code>S08-Table.xlsx</code><br><br><code>S01-Fig.pdf</code><br><code>S02-Fig.pdf</code><br><code>S03-Fig.pdf</code><br><code>S04-Fig.pdf</code><br><code>S05-Fig.pdf</code><br><code>S06-Fig.pdf</code><br><code>S07-Fig.pdf</code><br><code>S08-Fig.pdf</code><br><code>S09-Fig.pdf</code><br><code>S10-Fig.pdf</code><br><code>S11-Fig.pdf</code><br><br><code>S01-Item.docx</code><br><code>S02-Item.docx</code><br>
     </td>
     <td valign="top">
