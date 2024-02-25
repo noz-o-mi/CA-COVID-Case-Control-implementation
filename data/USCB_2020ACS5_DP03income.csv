@@ -1,0 +1,14 @@
+Total households,Estimate,Margin of error estimate,Percent,Percent margin of error,Families,Estimate,Margin of error estimate,Percent,Percent margin of error,Per capita income (dollars),Estimate,Margin of error estimate,Percent,Percent margin of error
+Total households,13103114,18542,13103114,,Families,8986666,23960,8986666,(X),Per capita income (dollars),38576,120,(X),(X)
+"Less than $10,000",614887,6699,4.7,0.1,"Less than $10,000",280427,4157,3.1,0.1,Nonfamily households,4116448,12837,4116448,(X)
+"$10,000 to $14,999",507398,5286,3.9,0.1,"$10,000 to $14,999",184721,3546,2.1,0.1,Median nonfamily income (dollars),50894,236,(X),(X)
+"$15,000 to $24,999",909475,6790,6.9,0.1,"$15,000 to $24,999",499848,5083,5.6,0.1,Mean nonfamily income (dollars),76668,374,(X),(X)
+"$25,000 to $34,999",929716,7272,7.1,0.1,"$25,000 to $34,999",579413,5717,6.4,0.1,Median earnings for workers (dollars),38176,124,(X),(X)
+"$35,000 to $49,999",1316064,8711,10,0.1,"$35,000 to $49,999",874117,7534,9.7,0.1,"Median earnings for male full-time, year-round workers (dollars)",58031,354,(X),(X)
+"$50,000 to $74,999",2007523,10495,15.3,0.1,"$50,000 to $74,999",1361792,9748,15.2,0.1,"Median earnings for female full-time, year-round workers (dollars)",50693,168,(X),(X)
+"$75,000 to $99,999",1616338,9649,12.3,0.1,"$75,000 to $99,999",1148221,8580,12.8,0.1,,,,,
+"$100,000 to $149,999",2235114,12762,17.1,0.1,"$100,000 to $149,999",1677378,10822,18.7,0.1,,,,,
+"$150,000 to $199,999",1227224,8960,9.4,0.1,"$150,000 to $199,999",968078,8124,10.8,0.1,,,,,
+"$200,000 or more",1739375,11874,13.3,0.1,"$200,000 or more",1412671,12313,15.7,0.1,,,,,
+Median household income (dollars),78672,270,,,Median family income (dollars),89798,376,(X),(X),,,,,
+Mean household income (dollars),111622,320,,,Mean family income (dollars),124332,420,(X),(X),,,,,
