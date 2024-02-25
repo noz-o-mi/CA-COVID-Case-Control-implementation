@@ -75,17 +75,32 @@ Authors: Nozomi Fukui, MPH <sup>1,2,¶,^</sup>, Sophia S. Li, BS<sup>1,3,¶,^</s
   <tr>
      <td valign="center">
       <h4 align="center"> :computer: models</h4>
-       <p align="center"><code>amod1_glmer</code><br><code>amod1_gee</code><br><code>amod1_geem</code><br><code>amod1_glm</code><br><code>amod1_x_glmer</code><br><code>amod1_x_gee</code><br><code>amod1_x_geem</code><br><code>amod1_x_glm</code><br><br><code>amod2_glmer</code><br><code>amod2_gee</code><br><code>amod2_geem</code><br><code>amod2_glm</code><br><code>amod2_x_glmer</code><br><code>amod2_x_gee</code><br><code>amod2_x_geem</code><br><code>amod2_x_glm</code><br><br></p>
+       <p align="center"><code>amod1_glmer</code><br>
+         <code>amod1_gee</code><br>
+         <code>amod1_glm</code><br>
+         <code>amod1_x_glmer</code><br>
+         <code>amod1_x_gee</code><br>
+         <code>amod1_x_glm</code><br><br>
+         <code>amod2_glmer</code><br>
+         <code>amod2_gee</code><br>
+         <code>amod2_glm</code><br>
+         <code>amod2_x_glmer</code>
+         <br><code>amod2_x_gee</code><br>
+         <code>amod2_x_glm</code><br><br></p>
     </td>
     <td valign="top">
-       <br>Model outputs generated and used in analysis. "amod" indicates an adjusted model. "x" indicates an interaction was accounted for. "glmer" refers to generalized linear mixed-effects models. "glm" refers to generalized linear fixed-effects models. "gee" and "geem" indicate generalized estimating equations.
+       <br>Model outputs generated and used in analysis. "amod" indicates an adjusted model. "x" indicates an interaction was accounted for. "glmer" refers to generalized linear mixed-effects models. "glm" refers to generalized linear fixed-effects models. "gee" indicates generalized estimating equations.
     </td>
     <td align="center">-</td>
   </tr>
   <tr>
      <td valign="top">
       <h4 align="center" valign="top"> :bar_chart:<a href="https://github.com/noz-o-mi/CA-COVID-Case-Control-implementation/tree/main/tables-figs">tables-figs</a></h4>
-       <p align="center"><code>Table1.xlsx</code><br><code>Table2.xlsx</code><br><br><code>Fig1.pdf</code><br><code>Fig2.pdf</code><br><code>Fig3.pdf</code></p>
+       <p align="center"><code>Table1.xlsx</code><br>
+         <code>Table2.xlsx</code><br><br>
+         <code>Fig1.pdf</code><br>
+         <code>Fig2.pdf</code><br>
+         <code>Fig3.pdf</code></p>
     </td>
     <td valign="top">
        <br>Main tables and figures in the paper. 
@@ -101,7 +116,27 @@ Authors: Nozomi Fukui, MPH <sup>1,2,¶,^</sup>, Sophia S. Li, BS<sup>1,3,¶,^</s
   <tr>
      <td valign="top">
       <h4 align="center" valign="top"> :card_file_box:<a href="https://github.com/noz-o-mi/CA-COVID-Case-Control-implementation/tree/main/supplement">supplement</a></h4>
-       <p align="center"><code>S01-Table.xlsx</code><br><code>S02-Table.xlsx</code><br><code>S03-Table.xlsx</code><br><code>S04-Table.xlsx</code><br><code>S05-Table.xlsx</code><br><code>S06-Table.xlsx</code><br><code>S07-Table.xlsx</code><br><code>S08-Table.xlsx</code><br><br><code>S01-Fig.pdf</code><br><code>S02-Fig.pdf</code><br><code>S03-Fig.pdf</code><br><code>S04-Fig.pdf</code><br><code>S05-Fig.pdf</code><br><code>S06-Fig.pdf</code><br><code>S07-Fig.pdf</code><br><code>S08-Fig.pdf</code><br><code>S09-Fig.pdf</code><br><code>S10-Fig.pdf</code><br><code>S11-Fig.pdf</code><br><br><code>S01-Item.docx</code><br><code>S02-Item.docx</code><br>
+       <p align="center"><code>S01-Table.xlsx</code><br>
+         <code>S02-Table.xlsx</code><br>
+         <code>S03-Table.xlsx</code><br>
+         <code>S04-Table.xlsx</code><br>
+         <code>S05-Table.xlsx</code><br>
+         <code>S06-Table.xlsx</code><br>
+         <code>S07-Table.xlsx</code><br>
+         <code>S08-Table.xlsx</code><br><br>
+         <code>S01-Fig.pdf</code><br>
+         <code>S02-Fig.pdf</code><br>
+         <code>S03-Fig.pdf</code><br>
+         <code>S04-Fig.pdf</code><br>
+         <code>S05-Fig.pdf</code><br>
+         <code>S06-Fig.pdf</code><br>
+         <code>S07-Fig.pdf</code><br>
+         <code>S08-Fig.pdf</code><br>
+         <code>S09-Fig.pdf</code><br>
+         <code>S10-Fig.pdf</code><br>
+         <code>S11-Fig.pdf</code><br><br>
+         <code>S01-Item.docx</code><br>
+         <code>S02-Item.docx</code><br>
     </td>
     <td valign="top">
        <br>Tables, figures, and items that provide supporting information to the paper.
