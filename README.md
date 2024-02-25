@@ -1,6 +1,7 @@
 # Implementation Experience of the California COVID-19 Case Control Study
 
-Title: ***Mixed methods approach to examining the implementation experience of a phone-based survey for a SARS-CoV-2 test-negative case-control study in California***
+Paper: ***Mixed methods approach to examining the implementation experience of a phone-based survey for a SARS-CoV-2 test-negative case-control study in California***<br>
+DOI: *pending*
 
 Authors: Nozomi Fukui, MPH <sup>1,2,¶,^</sup>, Sophia S. Li, BS<sup>1,3,¶,^</sup>, Jennifer DeGuzman, MPH<sup>1,^</sup>, Jennifer F. Myers, MPH<sup>1</sup>, John Openshaw, MD<sup>1</sup>, Anjali Sharma, ScD<sup>4,5</sup>, James Watt, MD, MPH<sup>1</sup>, Joseph A. Lewnard, PhD<sup>2,6,7</sup>, Seema Jain, MD<sup>1</sup>, Kristin L. Andrejko, PhD<sup>1,3,&</sup>, Jake M. Pry, PhD, MPH,<sup>1,8,&</sup>, on behalf of the California COVID-19 Case-Control Study Team,<sup>1^</sup>
 
@@ -16,7 +17,7 @@ Authors: Nozomi Fukui, MPH <sup>1,2,¶,^</sup>, Sophia S. Li, BS<sup>1,3,¶,^</s
 <sup>¶</sup> These authors contributed equally to the study's work.  <br>
 <sup>&</sup> J.M.P and K.L.A are joint senior authors and contributed equally to this work. <br>
 
-Corresponding Author(s): <br>
+Corresponding Authors: <br>
 Jake M. Pry, PhD, MPH <br>
 E-mail: jmpry@ucdavis.edu  <br> 
 
@@ -24,7 +25,7 @@ Kristin L. Andrejko, PhD  <br>
 Email: onp9@cdc.gov <br>
 
 
-<sup>^</sup>Membership of the California COVID-19 Case-Control Study Team includes: Adrian Cornejo, Amanda Lam, Amanda Moe, Amandeep Kaur, Anna Fang, Ashly Dyke, Camilla Barbaduomo, Christine Wan, Diana Nicole Morales Felipe, Diana Poindexter, Erin Xavier, Hyemin Park, Helia Samani, Jennifer DeGuzman, Jessica Ni, Julia Cheunkarndee, Mahsa Javadi, Maya Spencer, Michelle Spinosa, Miriam Bermejo, Monique Miller, Najla Dabbagh, Natalie Dassian, Nikolina Walas, Nozomi Fukui, Paulina Frost, Savannah Corredor, Shrey Saretha, Sophia S. Li, Timothy Ho, Vivian Tran, Yang Zhou, Yasmine Abdulrahim, Zheng Dong.
+<sup>^</sup>Membership of the California COVID-19 Case-Control Study Team includes: </br>Adrian Cornejo, Amanda Lam, Amanda Moe, Amandeep Kaur, Anna Fang, Ashly Dyke, Camilla Barbaduomo, Christine Wan, Diana Nicole Morales Felipe, Diana Poindexter, Erin Xavier, Hyemin Park, Helia Samani, Jennifer DeGuzman, Jessica Ni, Julia Cheunkarndee, Mahsa Javadi, Maya Spencer, Michelle Spinosa, Miriam Bermejo, Monique Miller, Najla Dabbagh, Natalie Dassian, Nikolina Walas, Nozomi Fukui, Paulina Frost, Savannah Corredor, Shrey Saretha, Sophia S. Li, Timothy Ho, Vivian Tran, Yang Zhou, Yasmine Abdulrahim, Zheng Dong.
 
 
 # Table of contents
