@@ -30,7 +30,7 @@ Email: onp9@cdc.gov <br>
 
 # Table of contents
 
-| Folder <br> `Files` | Description | Output  |
+| Folder <br> `Files` | Description<br> | Output<br> |
 | :----: | :-: | :- |
 | :floppy_disk:data <br> `raw.rdata` <br> `clean.rdata`| Raw and cleaned deidentified data used in the analysis and visualization of this paper. | - |
 | :broom:processing <br> `cleaning.R` | Code used to clean the raw data and prepare the analytic dataset. | Cleaned data file found in the data folder. |
