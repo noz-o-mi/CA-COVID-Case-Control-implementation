@@ -39,12 +39,12 @@ Authors: Nozomi Fukui, MPH <sup>1,2,¶,^</sup>, Sophia S. Li, BS<sup>1,3,¶,^</s
   <tr>
     <td valign="top">
       <h4 align="center"> :floppy_disk: data </h4>
-      <p align="center"><code>raw.rdata</code> <br> <code>clean.rdata</code><br> <code>codebook.xlsx</code><br><br>
-        <code>CAOpenData_covid19cases.csv</code><br> <code>USCB_2020ACS5_DP05race.csv</code><br> <code>USCB_2020ACS5_DP03income.csv</code><br>
+      <p align="center"> <code>C4study_survey.csv</code><br> <code>C4study_interviewer.csv</code><br> <code>codebook.xlsx</code><br> <br>
+         <code>CAOpenData_covid19cases.csv</code><br> <code>USCB_2020ACS5_DP05race.csv</code><br> <code>USCB_2020ACS5_DP03income.csv</code><br>
       </p>
     </td>
     <td>
-      Raw and cleaned deidentified data used in the analysis and visualization of this paper, as well as accompanying codebook. Accompanying public datasets used are listed below. <br> <br>
+      Deidentified data used in the analysis and visualization of this paper, as well as accompanying codebook. Accompanying public datasets used are listed below. <br> <br>
       <b>California Department of Public Health.</b> (2020-2022). COVID-19 Time-Series Metrics by County and State. <a href="https://data.ca.gov/dataset/covid-19-time-series-metrics-by-county-and-state">California Open Data Portal</a>. 
       <br><br><b>U.S. Census Bureau.</b> (2020). American Community Survey 5-year Demographic and Housing Estimates: <a href="https://data.census.gov/table/ACSDP5Y2020.DP05?g=040XX00US06%240500000&y=2020&d=ACS+5-Year+Estimates+Data+Profiles">DP05</a>. 
       <br><br><b>U.S. Census Bureau.</b> (2020). American Community Survey 5-year Selected Economic Characteristics: <a href="https://data.census.gov/table?q=income&g=040XX00US06&y=2020&d=ACS+5-Year+Estimates+Data+Profiles">DP02</a>.
