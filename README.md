@@ -55,54 +55,6 @@ Authors: Nozomi Fukui, MPH <sup>1,2,¶,^</sup>, Sophia S. Li, BS<sup>1,3,¶,^</s
   </tr>
   <tr>
      <td valign="top">
-       <h4 align="center"> :broom: processing </h4>
-       <p align="center"><code>cleaning.R</code></p>
-    </td>
-    <td>
-      Code used to clean the raw data and prepare the analytic dataset.
-    </td>
-    <td valign="center">
-      Cleaned data file found in the data folder.
-    </td>
-  </tr>
-  <tr>
-     <td valign="top">
-       <h4 align="center"> :mag_right: analysis </h4>
-       <p align="center"><code>filename</code></p>
-    </td>
-    <td valign = "top" align="left">
-       Code used to conduct quantitative analysis for the paper.
-    </td>
-    <td valign="center">
-      Model files located in the models folder.
-    </td>
-  </tr>
-  <tr>
-     <td valign="top">
-      <h4 align="center"> :computer: models</h4>
-       <p align="center"><code>amod1_glmer</code><br>
-         <code>amod1_gee</code><br>
-         <code>amod1_glm</code><br>
-         <code>amod1_x_glmer</code><br>
-         <code>amod1_x_gee</code><br>
-         <code>amod1_x_glm</code><br><br>
-         <code>amod2_glmer</code><br>
-         <code>amod2_gee</code><br>
-         <code>amod2_glm</code><br>
-         <code>amod2_x_glmer</code>
-         <br><code>amod2_x_gee</code><br>
-         <code>amod2_x_glm</code><br><br>
-         <code>model_info_lookup.xlsx</code><br><br>
-       </p>
-    </td>
-    <td valign="top">
-       <br>Model outputs generated and used in analysis. "amod" indicates an adjusted model. "x" indicates an interaction was accounted for. "glmer" refers to generalized linear mixed-effects models. "glm" refers to generalized linear fixed-effects models. "gee" indicates generalized estimating equations. <br><br>The model info lookup workbook contains information on each model.
-    </td>
-    <td valign="top" align="left"><br>Fig 3 located in tables-figs folder. <br>
-      S2-S4 Tables and S6 Table located in supplement folder.</td>
-  </tr>
-  <tr>
-     <td valign="top">
       <h4 align="center" valign="top"> :bar_chart:<a href="https://github.com/noz-o-mi/CA-COVID-Case-Control-implementation/tree/main/tables-figs">tables-figs</a></h4>
        <p align="center"><code>Table1.xlsx</code><br>
          <code>Table2.xlsx</code><br><br>
