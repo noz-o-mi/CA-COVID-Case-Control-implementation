@@ -39,7 +39,7 @@ Authors: Nozomi Fukui, MPH <sup>1,2,¶,^</sup>, Sophia S. Li, BS<sup>1,3,¶,^</s
   <tr>
     <td valign="top">
       <h4 align="center"> :floppy_disk: data </h4>
-      <p align="center"> <code>C4study_survey.csv</code><br> <code>C4study_interviewer.csv</code><br> <code>codebook.xlsx</code><br> <br>
+      <p align="center"> <code>C4study_survey.csv</code><br> <br> <code>codebook.xlsx</code><br> <br>
          <code>CAOpenData_covid19cases.csv</code><br> <code>USCB_2020ACS5_DP05race.csv</code><br> <code>USCB_2020ACS5_DP03income.csv</code><br>
       </p>
     </td>
